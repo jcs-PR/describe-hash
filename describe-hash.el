@@ -23,6 +23,7 @@
 
 ;;; Code:
 
+;;;###autoload
 (defun describe-hash (variable &optional buffer)
   "Display the full documentation of VARIABLE (a hash).
 Returns the documentation as a string, also.
